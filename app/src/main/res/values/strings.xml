@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_nota1">Actividad 1</string>
+    <string name="hint_nota2">Actividad 2</string>
+    <string name="hint_nota3">Actividad 3</string>
+    <string name="hint_nota4">Actividad 4</string>
+
+</resources>
