@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
                 if (txtnota1.getText().toString().length() > 0) {
-                    nota1 = Integer.parseInt(txtnota1.getText().toString());
+                    nota1 = Double.parseDouble(txtnota1.getText().toString());
                     if (nota1 < 0 || nota1 > 5) {
                         txtnota1.setText("");
                         ErrorNota = 1;
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     camposVacios++;
                 }
                 if (txtnota2.getText().toString().length() > 0) {
-                    nota2 = Integer.parseInt(txtnota2.getText().toString());
+                    nota2 = Double.parseDouble(txtnota2.getText().toString());
                     if (nota2 < 0 || nota2 > 5) {
                         txtnota2.setText("");
                         ErrorNota = 1;
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     camposVacios++;
                 }
                 if (txtnota3.getText().toString().length() > 0) {
-                    nota3 = Integer.parseInt(txtnota3.getText().toString());
+                    nota3 = Double.parseDouble(txtnota3.getText().toString());
                     if (nota3 < 0 || nota3 > 5) {
                         txtnota3.setText("");
                         ErrorNota = 1;
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (txtnota4.getText().toString().length() > 0) {
-                    nota4 = Integer.parseInt(txtnota4.getText().toString());
+                    nota4 = Double.parseDouble(txtnota4.getText().toString());
                     if (nota4 < 0 || nota4 > 5) {
                         txtnota4.setText("");
                         ErrorNota = 1;
